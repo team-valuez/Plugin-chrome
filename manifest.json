@@ -1,0 +1,15 @@
+{
+  "name": "api-request-test2",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "http://127.0.0.1:5000/*",
+    "windows"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }  
+}
