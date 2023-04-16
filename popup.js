@@ -1,8 +1,3 @@
-chrome.windows.getCurrent(function(window) {
-  var width = 800; // set the desired width of the window
-  var height = 600; // set the desired height of the window
-  chrome.windows.update(window.id, {width: width, height: height});
-});
 document.addEventListener('DOMContentLoaded', function() {
   const form = document.querySelector('form');
   const inputField = document.getElementById('input-field');
