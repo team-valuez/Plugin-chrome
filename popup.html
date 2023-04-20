@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html style = "height: 500px; width: 400px;">
   <head>
     <title>My Extension</title>
     <link rel="stylesheet" href="style.css">
     <script src="popup.js"></script>
   </head>
   <body>
-    <div class="rectangle">
+    <div class="container">
       <div class="content">
         <form>
+          <label for="input-field">Enter Data</label>
           <input type="text" id="input-field" name="input-field">
-          <label for="input-field">Enter Data:</label>
+          <br>
+          <textarea class = "textarea" id = "myTextarea" rows = "5" cols="60" name = "description" placeholder="Enter your description here..." wrap="soft" style = "resize: vertical;"></textarea>
+          <br>
           <button type="submit" id="submit-button">Submit</button>
         </form>
         <div id="response"></div>
